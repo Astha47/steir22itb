@@ -52,7 +52,7 @@ h1 {
 
 .nav {
   position: absolute;
-  top: 120px;
+  top: 13vh;
   right: 100px;
   background-color: #333;
   color: #fff;
@@ -392,4 +392,8 @@ footer {
 
 .typing-fade-out {
   animation: fade-out 1s forwards;
+}
+
+@media screen {
+  
 }
