@@ -403,6 +403,19 @@ footer {
 }
 
 @media (max-width: 1080px){
+  main {
+    margin-top: 16vh;
+    max-width: 800px;
+    min-height: 75vh;
+  }
+
+  .welcome{
+    height: 650px;
+    width: 100vw;
+    background-image: url('./img/welcomeheadsmall.jpg');
+    overflow: hidden;
+  }
+
   .header {
     height: 10vh;
     padding: 0;
@@ -447,7 +460,7 @@ footer {
 
   .intro{
     display: flex;
-    padding-top: 16vw;
+    padding-top: 25vw;
     justify-content: center;
     align-items: center;
     color: white;
@@ -469,7 +482,7 @@ footer {
 
   .startbutton{
     display: flex;
-    padding-top: 3vw;
+    padding-top: 20vw;
     justify-content: center;
     align-items: center;
     color: white;
@@ -494,7 +507,7 @@ footer {
   .onanogram{
     display: block;
     margin-top: 60px;
-    height: 500px;
+    height: 150vw;
     width: 100vw;
     background-color: white;
   }
@@ -524,19 +537,22 @@ footer {
   .onanogrambutton2{
     display: flex;
     bottom: 0;
+    padding-top: 6vw;
   }
   
   .onanogrambutton2 a{
     background-color: #676161;
     color: white;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 4vw;
+    padding-bottom: 4vw;
     padding-right: 30px;
     padding-left: 30px;
     text-decoration: none;
     max-width: fit-content;
     border-radius: 30px;
     transition: all 0.5s ease;
+    margin: auto;
+    font-size: 4vw;
   
   }
   
