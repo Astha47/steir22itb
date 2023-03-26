@@ -14,7 +14,7 @@ body {
   color: #fff;
   transition: all 0.5s ease;
   padding: 1em;
-  height: 13vh;
+  height: 130px;
   min-height: 80px;
   width: 100vw;
   display: flex;
@@ -56,7 +56,7 @@ body {
   background: rgba(11, 20, 83, 0.7);
   transition: all 0.5s ease;
   padding: 1em;
-  height: 10vh;
+  height: 100px;
   width: 100vw;
 }
 
