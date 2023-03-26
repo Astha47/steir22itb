@@ -17,6 +17,20 @@ body {
   height: 13vh;
   min-height: 80px;
   width: 100vw;
+  display: flex;
+}
+
+.banner{
+  margin-left: 30px;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.banner img{
+  opacity: 50%;
+  width: 100%;
 }
 
 .header .logo img{
@@ -175,6 +189,7 @@ section {
   border-radius: 20px;
 }
 
+/*Bagan onanogram*/
 .onanogram{
   display: flex;
   margin-top: 60px;
@@ -236,7 +251,7 @@ section {
   justify-content: center;
   height: 100%;
   width: 100%;
-  margin-left: 10px;
+  margin-right: 30px;
 }
 
 .ImageHero img{
@@ -358,6 +373,106 @@ section {
   background: #40D3DC;
 }
 
+/*Bagan jurusan*/
+.majors{
+  display: flex;
+  margin-top: 60px;
+  height: 500px;
+  width: 100vw;
+  background-color: white;
+  align-items: center;
+  align-self: center;
+
+}
+
+.majorcont{
+  margin: auto;
+  display: block;
+  max-width: 1000px;
+  width: 80vw;
+  height: 70%;
+}
+
+.rowmajor1{
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.rowmajor2{
+  display: none;
+  width: 100%;
+  height: 50%;
+}
+
+.mcards{
+  height: 100%;
+  width: 25%;
+  display: flex;
+}
+
+.mcard{
+  background-color: rgb(239, 236, 255);
+  border-color: #9182a5;
+  width: 90%;
+  height: 80%;
+  margin:auto;
+  border-radius: 5%;
+  border-style: solid;
+  border-width: 4px;
+  overflow: hidden;
+  transition: all 0.5s ease;
+  display: block;
+}
+
+.mcard:hover{
+  width: 100%;
+  height: 85%;
+  transition: all 0.5s ease;
+}
+
+.micon{
+  display: flex;
+  width: 100%;
+  height: 70%;
+}
+
+.mtitle{
+  width: 100%;
+  height: 30%;
+  fill:#4a4646;
+  display: block;
+}
+
+.textprd{
+  width: 100%;
+  height: 25%;
+  margin: auto;
+}
+
+.textprd h5{
+  width: 100%;
+  text-align: center;
+  font-size: 80%;
+  margin: 0; 
+}
+
+.eng{
+  width: 100%;
+  height: 25%;
+}
+
+.eng h4{
+  width: 100%;
+  text-align: center;
+  font-size: 90%;
+}
+
+.micon img{
+  width: 50%;
+  margin: auto;
+}
+
 .test{
   height: 1000px;
 }
@@ -402,7 +517,7 @@ footer {
   animation: fade-out 1s forwards;
 }
 
-@media (max-width: 1080px){
+@media (max-width: 890px){
   main {
     margin-top: 16vh;
     max-width: 800px;
@@ -414,6 +529,10 @@ footer {
     width: 100vw;
     background-image: url('./img/welcomeheadsmall.jpg');
     overflow: hidden;
+  }
+
+  .banner{
+    display: none;
   }
 
   .header {
@@ -482,7 +601,7 @@ footer {
 
   .startbutton{
     display: flex;
-    padding-top: 20vw;
+    padding-top: 1vw;
     justify-content: center;
     align-items: center;
     color: white;
@@ -504,6 +623,7 @@ footer {
     transition: all 0.5s ease;
   }
 
+  /*Bagan onanogram*/
   .onanogram{
     display: block;
     margin-top: 60px;
@@ -571,7 +691,7 @@ footer {
   
   .ImageHero img{
     border-radius: 100%;
-    width: 60%;
+    width: 40%;
     height: auto;
     margin: auto;
   }
@@ -687,6 +807,45 @@ footer {
 
   #slide4:checked ~ .navigation-auto .auto-btn4{
     background: #40D3DC;
+  }
+
+  .majors{
+    height: 800px;
+  }
+
+  .majorcont{
+    height: 80%;
+  }
+
+  .rowmajor1{
+    height: 50%;
+  }
+  .rowmajor2{
+    display: flex;
+  }
+
+  #ET{
+    display: none;
+  }
+
+  #ET2{
+    width: 50%;
+  }
+
+  #EB{
+    display: none;
+  }
+
+  #EB2{
+    width: 50%;
+  }
+
+  #EL{
+    width: 50%;
+  }
+
+  #EP{
+    width: 50%;
   }
 
 }
