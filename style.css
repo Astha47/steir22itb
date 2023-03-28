@@ -463,7 +463,7 @@ section {
 .textprd h5{
   width: 100%;
   text-align: center;
-  font-size: 80%;
+  font-size: 70%;
   margin: 0; 
 }
 
@@ -489,6 +489,7 @@ section {
 
 /* Footer styles */
 footer {
+  margin-top: 60px;
   background-color: #333;
   color: #fff;
   padding: 1em;
@@ -516,6 +517,39 @@ footer {
   justify-content: center;
   align-items: center;
   min-height: 100px;
+}
+
+/* FAQ */
+
+.faqsec{
+  display: flex;
+  margin-top: 60px;
+  height: 800px;
+  width: 100vw;
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+  align-self: center;
+}
+
+.faqhero{
+  height: 100%;
+  width: 30%;
+  background-color: #22329d;
+  display: flex;
+  min-width: 400px;
+}
+
+.faqtext{
+  color: white;
+  font-weight: 400;
+  margin: auto;
+  font-size: 70px;
+}
+
+.questionlist{
+  height: 100%;
+  width: 70%;
+  background-color: white;
 }
 
 @keyframes fade-out {
