@@ -154,7 +154,7 @@ h1 {
 main {
   margin-top: 230px;
   max-width: 800px;
-  min-height: 75vh;
+  min-height: 80vh;
 }
 
 section {
@@ -387,12 +387,12 @@ section {
 .majors{
   display: flex;
   margin-top: 60px;
-  height: 500px;
+  height: 600px;
   width: 100vw;
+  min-height: fit-content;
   background-color: white;
   align-items: center;
   align-self: center;
-
 }
 
 .majorcont{
@@ -403,16 +403,29 @@ section {
   height: 70%;
 }
 
+.majortitle{
+  display: flex;
+  height: 20%%;
+}
+
+.majortitle p{
+  margin: auto;
+  font-size: 4.5vw;
+  padding: 10px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 70;
+}
+
 .rowmajor1{
   width: 100%;
-  height: 100%;
+  height: 80%;
   display: flex;
 }
 
 .rowmajor2{
   display: none;
   width: 100%;
-  height: 50%;
+  height: 40%;
 }
 
 .mcards{
@@ -479,7 +492,7 @@ section {
 }
 
 .micon img{
-  width: 50%;
+  height: 60%;
   margin: auto;
 }
 
@@ -544,12 +557,21 @@ footer {
   font-weight: 400;
   margin: auto;
   font-size: 70px;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .questionlist{
+  display: flex;
   height: 100%;
   width: 70%;
   background-color: white;
+}
+
+.qcontainer{
+  width: 80%;
+  height: 80%;
+  background-color: #22329d;
+  margin: auto;
 }
 
 @keyframes fade-out {
@@ -858,14 +880,15 @@ footer {
   }
 
   .majorcont{
-    height: 80%;
+    height:80%;
   }
 
   .rowmajor1{
-    height: 50%;
+    height: 45%;
   }
   .rowmajor2{
     display: flex;
+    height: 45%;
   }
 
   #ET{
@@ -890,6 +913,21 @@ footer {
 
   #EP{
     width: 50%;
+  }
+  /*FAQ*/
+
+  .faqsec{
+    display: block;
+  }
+
+  .faqhero{
+    width: 100vw;
+    height: 25%;
+  }
+
+  .questionlist{
+    width: 100vw;
+    height: 75%;
   }
 
 }
