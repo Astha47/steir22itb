@@ -3,7 +3,7 @@ body {
   font-family: sans-serif;
   margin: 0;
   padding: 0;
-  background-color: rgb(206, 230, 252);
+  background-color: #ECF2FF;
 }
 
 /* Header styles */
@@ -18,12 +18,12 @@ body {
 }
 
 .header {
+  z-index: 1;
   position: fixed;
   top: 0;
-  background: #141c4d;
+  background: #3E54AC;
   color: #fff;
   transition: all 0.5s ease;
-  padding: 1em;
   height: 130px;
   min-height: 80px;
   width: 100vw;
@@ -45,7 +45,7 @@ body {
 
 .header .logo img{
   max-height: 100%;
-  padding: 20px;
+  padding: 30px;
 }
 
 .logo{
@@ -63,9 +63,8 @@ body {
   position: fixed;
   top: 0;
   backdrop-filter: blur(8px);
-  background: rgba(11, 20, 83, 0.7);
+  background: rgba(62, 84, 172, 0.4);
   transition: all 0.5s ease;
-  padding: 1em;
   height: 100px;
   width: 100vw;
 }
@@ -76,9 +75,9 @@ h1 {
 
 .nav {
   position: absolute;
-  top: 130px;
+  top: 95px;
   right: 100px;
-  background-color: #333;
+  background-color: #3A1078;
   color: #fff;
   height: 70px;
   padding: 0 20px;
@@ -100,7 +99,7 @@ h1 {
 }
 
 #Beranda{
-  background-color: #7e7a7a;
+  background-color: #655DBB;
   transition: all 0.5s ease;
   border-radius: 10px;
 }
@@ -120,9 +119,9 @@ h1 {
 
 .navscroll {
   position: absolute;
-  top: 100px;
+  top: 65px;
   right: 100px;
-  background-color: #4a4646;
+  background-color: #3A1078;
   color: #fff;
   height: 70px;
   padding: 0 20px;
@@ -133,19 +132,23 @@ h1 {
 
 .more{
   cursor: pointer;
-  background-color: #676161;
+  background-color: #655DBB;
   padding-left: 30px;
   padding-right: 30px;
   padding-top: 10px;
   padding-bottom: 15px;
   border-radius: 30px;
+  font-size: 30px;
   color: rgb(238, 229, 229);
+  font-family: 'Archivo Narrow', sans-serif;
+  
   text-decoration: none;
   transition: all 0.5s ease;
+  font-weight: 1000;
 }
 
 .more:hover{
-  background-color: #928a8a;
+  background-color: #a49fea;
   transition: all 0.5s ease;
 }
 
@@ -238,7 +241,7 @@ section {
 }
 
 .onanogrambutton a{
-  background-color: #676161;
+  background-color: #655DBB;
   color: white;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -248,11 +251,12 @@ section {
   max-width: fit-content;
   border-radius: 30px;
   transition: all 0.5s ease;
+  font-family: 'Almarai', sans-serif;
 
 }
 
 .onanogrambutton a:hover{
-  background-color: #989090;
+  background-color: #a49fea;
   transition: all 0.5s ease;
 }
 
@@ -301,6 +305,7 @@ section {
 .slide{
   width: 20%;
   transition: 2s;
+  display: block;
 }
 
 .slide img{
@@ -308,7 +313,17 @@ section {
   height: 500px;
 }
 
+.stextcontainer{
+  width: 100%;
+  height: 100%;
+  margin-top: -200px;
+  background-color: #141c4d;
+  opacity: 50%;
+  display: block;
+}
+
 .navigation-manual{
+  z-index: 0;
   width: 800px;
   margin-top: -40px;
   display: flex;
@@ -353,6 +368,7 @@ section {
   width: 800px;
   justify-content: center;
   margin-top: 460px;
+  z-index: 0;
 }
 
 .navigation-auto div{
@@ -504,7 +520,7 @@ section {
 /* Footer styles */
 footer {
   margin-top: 60px;
-  background-color: #333;
+  background-color: #3A1078;
   color: #fff;
   padding: 1em;
   text-align: center;
@@ -571,8 +587,19 @@ footer {
 .qcontainer{
   width: 80%;
   height: 80%;
-  background-color: #22329d;
   margin: auto;
+  display: flex;
+}
+
+.qcontainer ul{
+  margin: auto;
+}
+
+.qcontainer li{
+  padding: 20px;
+  color: #22329d;
+  font-size: 15pt;
+  font-weight: 800;
 }
 
 @keyframes fade-out {
@@ -612,6 +639,7 @@ footer {
     transition: all 0.5s ease;
     min-height: 80px;
     width: 100vw;
+    padding: 0;
   }
 
   .headertransp {
@@ -679,7 +707,7 @@ footer {
 
   .more{
     cursor: pointer;
-    background-color: #676161;
+    background-color: #655DBB;
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 10px;
@@ -890,7 +918,7 @@ footer {
 
   .rowmajor1{
     height: 45%;
-    margin-top: 40px;
+    margin-top: 1vw;
   }
   .rowmajor2{
     display: flex;

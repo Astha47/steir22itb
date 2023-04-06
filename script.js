@@ -1,6 +1,7 @@
 window.addEventListener('scroll', function() {
   var header = document.getElementById('header');
   var nav = document.getElementById('nav');
+  
   header.classList.toggle('headertransp', window.scrollY > 0);
   nav.classList.toggle('navscroll', window.scrollY > 0);
 });
