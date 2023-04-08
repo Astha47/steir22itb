@@ -3,7 +3,7 @@ body {
   font-family: sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #ECF2FF;
+  background-color: #d5dcf1;
 }
 
 /* Header styles */
@@ -319,12 +319,12 @@ section {
   margin-top: -200px;
   background-color: #141c4d;
   opacity: 50%;
-  display: block;
+  display: none;
 }
 
 .navigation-manual{
   z-index: 0;
-  width: 800px;
+  width: 100%;
   margin-top: -40px;
   display: flex;
   justify-content: center;
@@ -403,7 +403,7 @@ section {
 .majors{
   display: flex;
   margin-top: 60px;
-  height: 600px;
+  height: 800px;
   width: 100vw;
   min-height: fit-content;
   background-color: white;
@@ -416,7 +416,8 @@ section {
   display: block;
   max-width: 1000px;
   width: 80vw;
-  height: 70%;
+  height: 60%;
+  margin-top: 100px;
 }
 
 .majortitle{
@@ -509,7 +510,7 @@ section {
 }
 
 .micon img{
-  height: 60%;
+  height: 50%;
   margin: auto;
 }
 
@@ -597,9 +598,10 @@ footer {
 
 .qcontainer li{
   padding: 20px;
-  color: #22329d;
+  color: #030c48;
   font-size: 15pt;
   font-weight: 800;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 @keyframes fade-out {
@@ -830,7 +832,7 @@ footer {
   }
 
   .navigation-manual{
-    width: 800px;
+    width: 100%;
     margin-top: -40px;
     display: flex;
     justify-content: center;
@@ -905,11 +907,12 @@ footer {
   }
 
   .majors{
-    height: 800px;
+    height: 1000px;
   }
 
   .majorcont{
     height:80%;
+    margin-top: 30px;
   }
 
   .majortitle p{
@@ -962,6 +965,11 @@ footer {
   .questionlist{
     width: 100vw;
     height: 75%;
+    min-height: ;
+  }
+
+  .questionlist li{
+    font-size: 12pt;
   }
 
 }
