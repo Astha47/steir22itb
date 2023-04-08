@@ -646,7 +646,7 @@ footer {
 
   .headertransp {
     position: fixed;
-    top: 0;
+    top: 0px;
     backdrop-filter: blur(8px);
     background: rgba(11, 20, 83, 0.7);
     transition: all 0.5s ease;
@@ -907,12 +907,12 @@ footer {
   }
 
   .majors{
-    height: 1000px;
+    height: 800px;
   }
 
   .majorcont{
     height:80%;
-    margin-top: 30px;
+    margin-top: ;
   }
 
   .majortitle p{
@@ -920,12 +920,12 @@ footer {
   }
 
   .rowmajor1{
-    height: 45%;
+    height: 35%;
     margin-top: 1vw;
   }
   .rowmajor2{
     display: flex;
-    height: 45%;
+    height: 35%;
   }
 
   #ET{
