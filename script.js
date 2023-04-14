@@ -7,7 +7,7 @@ window.addEventListener('scroll', function() {
 });
 
 const textElement = document.getElementById('typing-text');
-typeText(textElement, ['Viva la Electrica!', 'Mahasiswa institut terbaik bangsa!', 'In harmonia progressio!', 'Sekolah Teknik Elektro dan Informatika - Rekayasa'], 50, 2000, 1000);
+typeText(textElement, ['print("Viva la Electrica!")', 'cout<<"Mahasiswa institut terbaik bangsa!";', 'console.log("In harmonia progressio!");', 'Sekolah Teknik Elektro dan Informatika - Rekayasa'], 50, 2000, 1000);
 
 const moreButton = document.getElementById('more');
 moreButton.addEventListener('click', () => {
