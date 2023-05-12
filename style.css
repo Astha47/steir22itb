@@ -962,7 +962,9 @@ footer {
 
   .majors{
     height: 800px;
-    background-image: url("img/bg\ pattern\ final.png");
+    background-image: url("img/bg\ pattern\ final.jpg");
+    background-size: cover;
+
   }
 
   .majorcont{
