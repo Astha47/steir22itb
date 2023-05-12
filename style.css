@@ -133,6 +133,7 @@ h1 {
 .more{
   cursor: pointer;
   background-color: #655DBB;
+  backdrop-filter: blur(10px);
   padding-left: 30px;
   padding-right: 30px;
   padding-top: 10px;
@@ -266,11 +267,50 @@ section {
   height: 100%;
   width: 100%;
   margin-right: 30px;
+
+}
+
+.outerhero{
+  display: flex;
+  margin: auto;
+  height: 350px;
+  width: 350px;
+  background-image: url("img/gradient.jpg") ;
+  background-size: cover;
+  border-radius: 100%;
+  transition: all 2s ease;
+}
+
+.outerhero:hover{
+  transform: rotate(180deg);
+  transition: all 2s ease;
+}
+
+.transparentlayerhero{
+  display: flex;
+  height: 100%;
+  width: 100%;
+  transition: all 2s ease;
+}
+
+.innerhero{
+  display: flex;
+  margin: auto;
+  height: 320px;
+  width: 320px;
+  background-color: white;
+  border-radius: 100%;
+  transition: all 2s ease;
+}
+
+.transparentlayerhero:hover{
+  transform: rotate(-180deg);
+  transition: all 2s ease;
 }
 
 .ImageHero img{
   border-radius: 100%;
-  height: 70%;
+  height: 95%;
   margin: auto;
 }
 
@@ -406,7 +446,7 @@ section {
   height: 800px;
   width: 100vw;
   min-height: fit-content;
-  background-color: white;
+  background-image: url("img/bg\ pattern\ final.png");
   align-items: center;
   align-self: center;
 }
@@ -711,6 +751,7 @@ footer {
   .more{
     cursor: pointer;
     background-color: #655DBB;
+    backdrop-filter: blur(10px);
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 10px;
@@ -779,6 +820,16 @@ footer {
     background-color: #989090;
     transition: all 0.5s ease;
   }
+
+  .outerhero{
+    width: 50vw;
+    height: 50vw;
+  }
+
+  .innerhero{
+    width: 47vw;
+    height: 47vw;
+  }
   
   .ImageHero{
     display: flex;
@@ -790,7 +841,7 @@ footer {
   
   .ImageHero img{
     border-radius: 100%;
-    width: 40%;
+    width: 95%;
     height: auto;
     margin: auto;
   }
@@ -910,6 +961,7 @@ footer {
 
   .majors{
     height: 800px;
+    background-image: url("img/bg\ pattern\ final.png");
   }
 
   .majorcont{
