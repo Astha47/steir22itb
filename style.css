@@ -447,6 +447,7 @@ section {
   width: 100vw;
   min-height: fit-content;
   background-image: url("img/bg\ pattern\ final.png");
+  background-size: cover;
   align-items: center;
   align-self: center;
 }
