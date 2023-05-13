@@ -93,4 +93,48 @@ setInterval(function(){
   document.getElementById('slide'+counter).checked = true;
 
   console.log("counter setelahnya = ",counter)
-}, 10000)
+}, 10000);
+
+
+var vms1 = document.getElementById("vms1");
+var vms2 = document.getElementById("vms2");
+var vms3 = document.getElementById("vms3");
+var vms4 = document.getElementById("vms4");
+var sattelite = document.getElementById("sattelite");
+
+var degree = 0;
+setInterval(function(){
+  degree = degree + 90
+
+  sattelite.style.transform = "rotate("+degree+"deg)"
+  vms1.style.transform = "rotate(-"+degree+"deg)"
+  vms2.style.transform = "rotate(-"+degree+"deg)"
+  vms3.style.transform = "rotate(-"+degree+"deg)"
+  vms4.style.transform = "rotate(-"+degree+"deg)"
+  
+}, 3000);
+
+var warnatombol = 0;
+var baganbutton = document.getElementById("startbutton");
+setInterval(function(){
+  if (warnatombol == 0) {
+
+    moreButton.style.backgroundColor = "#aba5ec";
+    moreButton.style.paddingLeft = "32px"
+    moreButton.style.paddingRight = "32px"
+    moreButton.style.paddingTop = "12px"
+    moreButton.style.paddingBottom = "17px"
+    moreButton.style.fontSize = "27px"
+    
+    warnatombol++
+    
+  } else {
+    moreButton.style.backgroundColor = "#655DBB";
+    moreButton.style.paddingTop = "10px"
+    moreButton.style.paddingLeft = "30px"
+    moreButton.style.paddingRight = "30px"
+    moreButton.style.paddingBottom = "15px"
+    moreButton.style.fontSize = "21px"
+    warnatombol = 0
+  }
+}, 1000);

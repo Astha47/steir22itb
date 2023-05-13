@@ -184,6 +184,9 @@ h1 {
   text-decoration: none;
   transition: all 0.5s ease;
   font-weight: 1000;
+  width: fit-content;
+  height: fit-content;
+  margin: auto;
 }
 
 .more:hover{
@@ -223,7 +226,7 @@ section {
 
 .startbutton{
   display: flex;
-  padding-top: 70px;
+  padding-top: 60px;
   justify-content: center;
   align-items: center;
   color: white;
@@ -239,6 +242,12 @@ section {
   padding-left: 30px;
   padding-right: 30px;
   border-radius: 20px;
+}
+
+.spacemore{
+  display: flex;
+  width: 100%;
+  height: 100px;
 }
 
 /*Bagan onanogram*/
@@ -682,11 +691,90 @@ footer {
 }
 
 .visimisicontent{
-  display: flex;
+  display: block;
   height: 100%;
   width: 40%;
   background-color: white;
 }
+
+.visimisianicontainer{
+  display: flex;
+  width: 100%;
+  height: 60%;
+}
+
+.visimisitextcontainer{
+  display: block;
+  width: 100%;
+  height: 40%;
+}
+
+.anivmcontainer{
+  display: block;
+  margin: auto;
+  width: 250px;
+  height: 250px;
+}
+
+.vmsattelite{
+  width: 100%;
+  height: 100%;
+  transition: all 1s ease-in-out;
+}
+
+.vmcenter{
+  display: flex;
+  margin: auto;
+  width: 100%;
+  height:  100%;
+  position: relative;
+  top: -100%;
+}
+
+.vmcenter img{
+  width: 70%;
+  height: auto;
+  margin: auto;
+}
+
+.vmsrow{
+  width: 100%;
+  height: 50%;
+  display: flex;
+}
+
+.vms{
+  width: 50%;
+  height: 100%;
+  display: flex;
+
+}
+
+.vms img{
+  width: 50%;
+  height: 50%;
+  position: relative;
+  transition: all 1s ease-in-out;
+}
+
+#vms1{
+  top: 0;
+  left: 0;
+}
+
+#vms2{
+  margin-left: 50%;
+}
+
+#vms3{
+  margin-top: 50% ;
+}
+
+#vms4{
+  margin-top: 50%;
+  margin-left: 50%;
+}
+
 
 /* FAQ */
 
@@ -815,15 +903,32 @@ footer {
   .sidebar{
     display: flex;
     position: absolute;
-    top: 11px;
+    top: 14px;
     left: 20px;
     background-color: #3A1078;
     color: #fff;
-    height: 60px;
-    padding: 0 20px;
+    height: 50px;
+    padding: 0 10px;
     border-radius: 20px;
     transition: all 0.5s ease;
-    width: 30px;
+    width: 40px;
+  }
+
+  .hamburger{
+    width: 80%;
+    margin: auto;
+    height: 70%;
+  }
+
+  .whiteburger{
+    width: 100%;
+    height: 20%;
+    background-color: white;
+  }
+
+  .voidburger{
+    width: 100%;
+    height: 20%;
   }
 
   .sidebaron{
@@ -991,6 +1096,7 @@ footer {
     text-decoration: none;
     transition: all 0.5s ease;
     font-size: 15pt;
+    
   }
 
   /*Bagan onanogram*/
@@ -1245,17 +1351,18 @@ footer {
   /* visimisi */
 
   .visimisi{
+    height: 900px;
     display: block;
   }
 
   .visimisihero{
     width: 100vw;
-    height: 50%;
+    height: 35%;
   }
 
   .visimisicontent{
     width: 100vw;
-    height: 50%;
+    height: 65%;
   }
 
   .michelangelo{
@@ -1263,6 +1370,15 @@ footer {
     width: 40%;
     height: 100%;
   }
+  
+  #michele{
+    right: calc(-60px + 20vw);
+  }
+
+  #michelangelo{
+    left: calc(100px - (100px - 1vw));
+  }
+
 
 
 
