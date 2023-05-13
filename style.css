@@ -356,7 +356,7 @@ section {
 .slidersec{
   margin-top: 60px;
   width: 100vw;
-  height: 600px;
+  height: 800px;
   background-image: url('./img/sildesbackground.jpg');
   overflow: hidden;
   display: flex;
@@ -627,6 +627,53 @@ footer {
   justify-content: center;
   align-items: center;
   min-height: 100px;
+}
+/*Visi Misi*/
+
+.visimisi{
+  display: flex;
+  margin-top: 60px;
+  height: 800px;
+  width: 100vw;
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+  align-self: center;
+}
+
+.visimisihero{
+  height: 100%;
+  width: 60%;
+  background-image: url("img/futuristic_town.jpg");
+  background-size: cover;
+  display: flex;
+  min-width: 400px;
+  overflow: hidden;
+}
+
+.persona{
+  display: flex;
+  margin: auto;
+  height: 100%;
+  width: 100%;
+}
+
+#michelangelo{
+  position: relative;
+  bottom: -100px;
+  right: -5%;
+}
+
+#michele{
+  position: relative;
+  left: -5%;
+  bottom: -80px;
+}
+
+.visimisicontent{
+  display: flex;
+  height: 100%;
+  width: 40%;
+  background-color: white;
 }
 
 /* FAQ */
@@ -1182,6 +1229,25 @@ footer {
   #EP{
     width: 50%;
   }
+
+  /* visimisi */
+
+  .visimisi{
+    display: block;
+  }
+
+  .visimisihero{
+    width: 100vw;
+    height: 50%;
+  }
+
+  .visimisicontent{
+    width: 100vw;
+    height: 50%;
+  }
+
+
+
   /*FAQ*/
 
   .faqsec{
