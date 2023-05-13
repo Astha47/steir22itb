@@ -138,3 +138,29 @@ setInterval(function(){
     warnatombol = 0
   }
 }, 1000);
+
+const michelangelo = document.getElementById("michelangelo")
+var michelangelopos = 0
+setInterval(function(){
+ if (michelangelopos == 0) {
+  michelangelo.style.bottom = "-80px"
+  michelangelopos = 1
+ }
+ else{
+  michelangelo.style.bottom = "-100px"
+  michelangelopos = 0
+ }
+}, 3000);
+
+const michele = document.getElementById("michele")
+var michelepos = 0
+setInterval(function(){
+ if (michelepos == 0) {
+  michele.style.bottom = "-80px"
+  michelepos = 1
+ }
+ else{
+  michele.style.bottom = "-100px"
+  michelepos = 0
+ }
+}, 3500);
