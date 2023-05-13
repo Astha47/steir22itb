@@ -672,12 +672,12 @@ footer {
 #michelangelo{
   position: relative;
   bottom: -80px;
-  left: 5vw;
+  left: calc(100px - (100px - 5vw));
 }
 
 #michele{
   position: relative;
-  right: 60px;
+  right: calc(-60px + 5vw);
   bottom: -80px;
 }
 
