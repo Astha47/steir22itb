@@ -657,15 +657,27 @@ footer {
   width: 100%;
 }
 
+.michele{
+  display: flex;
+  width: 50%;
+  height: 100%;
+}
+.michelangelo{
+  display: flex;
+  width: 30%;
+  height: 100%;
+}
+
+
 #michelangelo{
   position: relative;
-  bottom: -100px;
-  right: -5%;
+  bottom: -80px;
+  left: 5vw;
 }
 
 #michele{
   position: relative;
-  left: -5%;
+  right: 60px;
   bottom: -80px;
 }
 
@@ -1244,6 +1256,12 @@ footer {
   .visimisicontent{
     width: 100vw;
     height: 50%;
+  }
+
+  .michelangelo{
+    display: flex;
+    width: 40%;
+    height: 100%;
   }
 
 
