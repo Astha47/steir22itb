@@ -18,6 +18,17 @@ moreButton.addEventListener('click', () => {
   });
 });
 
+
+
+const sidebarmenu = document.getElementById("sidebarmenu")
+const penutuplayar = document.getElementById("penutuplayar")
+const sidebarbutton = document.getElementById("sidebarbutton");
+sidebarbutton.addEventListener('click', function() {
+  sidebarmenu.classList.toggle('sidebarmenuaactive');
+  penutuplayar.classList.toggle('penutuplayaron');
+  sidebarbutton.classList.toggle('sidebaron');
+})
+
 function typeText(element, texts, delay, pause, fadeInDelay, textIndex) {
   if (textIndex === undefined) {
     textIndex = 0;

@@ -17,6 +17,10 @@ body {
   display: none;
 }
 
+.sidebarmenu{
+  display: none;
+}
+
 .header {
   z-index: 1;
   position: fixed;
@@ -84,7 +88,40 @@ h1 {
   padding: 0 20px;
   border-radius: 20px;
   transition: all 0.5s ease;
-  
+}
+
+.contact {
+  position: absolute;
+  display: flex;
+  top: 85vh;
+  right: 70px;
+  color: #fff;
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  transition: all 0.5s ease;
+}
+
+.contact img{
+  width: 80%;
+  height: 80%;
+  border-radius: 100%;
+  margin: auto;
+  transition: all 0.5s ease;
+}
+
+.contact img:hover{
+  height: 90%;
+  width: 90%;
+  transition: all 0.5s ease;
+}
+
+.penutuplayar{
+  display: none;
+}
+
+.sidebar {
+  display: none;
 }
 
 .nav ul {
@@ -688,7 +725,7 @@ footer {
 
   .headertransp {
     position: fixed;
-    top: 0px;
+    top: 0;
     backdrop-filter: blur(8px);
     background: rgba(11, 20, 83, 0.7);
     transition: all 0.5s ease;
@@ -713,6 +750,138 @@ footer {
   }
 
   .nav{
+    display: none;
+  }
+
+  .sidebar{
+    display: flex;
+    position: absolute;
+    top: 11px;
+    left: 10px;
+    background-color: #3A1078;
+    color: #fff;
+    height: 60px;
+    padding: 0 20px;
+    border-radius: 20px;
+    transition: all 0.5s ease;
+    width: 30px;
+  }
+
+  .sidebaron{
+    display: flex;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    background-color: #3A1078;
+    color: #fff;
+    height: 60px;
+    padding: 0 20px;
+    border-radius: 20px;
+    transition: all 0.5s ease;
+    width: 30px;
+  }
+
+  .contact {
+    position: absolute;
+    display: flex;
+    top: 80vh;
+    right: 5px;
+    color: #fff;
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+    transition: all 0.5s ease;
+  }
+
+  .penutuplayar.penutuplayaron{
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    background-color: #02061f;
+    opacity: 70%;
+    color: #fff;
+    height: 110vh;
+    width: 110vw;
+    transition: all 0.5s ease;
+  }
+
+  .penutuplayar{
+    left: -120vw;
+    position: absolute;
+    display: block;
+    top: 0;
+    background-color: #02061f;
+    opacity: 70%;
+    color: #fff;
+    height: 110vh;
+    width: 110vw;
+    transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+
+  .sidebarmenu{
+    position: absolute;
+    display: block;
+    top: 0;
+    left: -80vw;
+    background-color: #02061f;
+    color: #fff;
+    height: 110vh;
+    width: 70vw;
+    transition: all 0.5s ease;
+  }
+
+  .sidebarmenuaactive{
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0px;
+    background-color: #02061f;
+    color: #fff;
+    height: 110vh;
+    width: 70vw;
+    transition: all 0.5s ease;
+  }
+
+  .headersidebar{
+    width: 100%;
+    height: 150px;
+  }
+
+  .sidebaroptionscontainer{
+    display: flex;
+    width: 100%;
+    height: fit-content;
+  }
+
+  .sidebaroptions{
+    display: block;
+    width: 70%;
+    height: fit-content;
+    margin: auto;
+  }
+  .sidebaroption{
+    display: flex;
+    width: 100%;
+    height: 70px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    background-color: #3A1078;
+    transition: all 0.5s ease;
+  }
+
+  .sidebaroption:hover{
+    background-color: #7950b7;
+    transition: all 0.5s ease;
+  }
+
+  .sidebartext{
+    margin: auto;
+    font-size: 150%;
+  }
+
+  .penutuplayarnonactive{
     display: none;
   }
 
