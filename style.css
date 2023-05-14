@@ -822,14 +822,14 @@ footer {
 
 .questionlist{
   display: flex;
-  height: 100%;
+  height: fit-content;
   width: 70%;
   background-color: white;
 }
 
 .qcontainer{
   width: 80%;
-  height: 80%;
+  height: fit-content;
   margin: auto;
   display: flex;
 }
@@ -1369,6 +1369,13 @@ footer {
   .visimisi{
     height: 900px;
     display: block;
+  }
+
+  .anivmcontainer{
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: 200px;
   }
 
   .visimisihero{
