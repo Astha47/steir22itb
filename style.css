@@ -361,6 +361,23 @@ section {
   margin: auto;
 }
 
+/*Bagan Video*/
+
+.videoembed{
+  margin-top: 60px;
+  width: 100vw;
+  height: 800px;
+  background-image: url('./img/videoembeddmakrab.JPG');
+  background-size: cover;
+  overflow: hidden;
+  display: flex;
+}
+
+.videoembed iframe{
+  margin: auto;
+  border-radius: 20px;
+}
+
 /*slides*/
 .slidersec{
   margin-top: 60px;
@@ -1196,6 +1213,10 @@ footer {
     width: 95%;
     height: auto;
     margin: auto;
+  }
+
+  .videoembed{
+    height: 70vw;
   }
 
   /*slides*/
