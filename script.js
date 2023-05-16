@@ -235,4 +235,4 @@ setInterval(function(){
     faqsec.style.marginTop = "120px"
   }
 
-},500)
+},200)
