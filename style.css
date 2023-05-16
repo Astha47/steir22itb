@@ -140,6 +140,7 @@ h1 {
   background-color: #655DBB;
   transition: all 0.5s ease;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 .nav ul li a {
@@ -257,6 +258,7 @@ section {
   height: 500px;
   width: 100vw;
   background-color: white;
+  transition: all 0.5s ease-in-out;
 }
 
 .textonanogram2 {
@@ -306,6 +308,10 @@ section {
 .onanogrambutton a:hover {
   background-color: #a49fea;
   transition: all 0.5s ease;
+}
+
+.imagecontainer{
+  height: 100%;
 }
 
 .ImageHero {
@@ -371,6 +377,7 @@ section {
   background-size: cover;
   overflow: hidden;
   display: flex;
+  transition: all 0.5s ease-in-out;
 }
 
 .videoembed iframe {
@@ -783,6 +790,7 @@ section {
   margin: auto;
   height: 100%;
   width: 100%;
+  transition: all 1s ease-in-out;
 }
 
 .michele {
@@ -1276,19 +1284,22 @@ section {
 
   /*Bagan onanogram*/
   .onanogram {
-    display: block;
+    display: flex;
     margin-top: 60px;
     height: 150vw;
     width: 100vw;
     background-color: white;
+    overflow: hidden;
   }
 
   .textonanogram {
     display: none;
+    width: 60%;
   }
 
   .textonanogram2 {
-    width: 80%;
+    width: 60%;
+    height: 100%;
     text-align: center;
     transition: all 0.5s ease;
     display: block;
@@ -1332,10 +1343,18 @@ section {
     transition: all 0.5s ease;
   }
 
+  .herocontainer{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
   .outerhero {
     width: 50vw;
     height: 50vw;
   }
+
 
   .innerhero {
     width: 47vw;
@@ -1344,8 +1363,7 @@ section {
 
   .ImageHero {
     display: flex;
-    justify-content: center;
-    height: 70vw;
+    height: 100%;
     width: 100%;
     margin-left: 0;
   }

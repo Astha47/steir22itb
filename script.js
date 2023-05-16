@@ -11,13 +11,26 @@ typeText(textElement, ['print("Viva la Electrica!")', 'cout<<"Mahasiswa institut
 
 const moreButton = document.getElementById('more');
 moreButton.addEventListener('click', () => {
+  const scrollTop = window.scrollY;
+  var scrollmore = 740 - scrollTop
   window.scrollBy({
-    top: 740,
+    top: scrollmore,
     left: 0,
     behavior: 'smooth'
   });
 });
 
+
+const pageButton = document.getElementById("Beranda");
+pageButton.addEventListener('click', () => {
+  const scrollTop = window.scrollY;
+  var scrollhome = - scrollTop
+  window.scrollBy({
+    top: scrollhome,
+    left: 0,
+    behavior: 'smooth'
+  });
+});
 
 
 const sidebarmenu = document.getElementById("sidebarmenu")
@@ -82,8 +95,6 @@ setInterval(function(){
   } else if(slide4.checked == true) {
     counter = 4
   }
-
-  console.log("counter sekarang = ",counter)
   
   counter++;
   if (counter > 4) {
@@ -92,7 +103,6 @@ setInterval(function(){
 
   document.getElementById('slide'+counter).checked = true;
 
-  console.log("counter setelahnya = ",counter)
 }, 10000);
 
 
@@ -164,3 +174,33 @@ setInterval(function(){
   michelepos = 0
  }
 }, 3500);
+
+const persona = document.getElementById("persona")
+const onanogram = document.getElementById("onanogram")
+const videoembed = document.getElementById("videoembed")
+setInterval(function(){
+  var scroll = window.scrollY;
+  /*console.log(scroll)*/
+
+  if (scroll >= 1040) {
+    videoembed.style.opacity = "100%"
+    videoembed.style.marginTop = "60px"
+  } else {
+    videoembed.style.opacity = "0%"
+    videoembed.style.marginTop = "120px"
+  }
+
+  if (scroll >= 240) {
+    onanogram.style.opacity = "100%"
+    onanogram.style.marginTop = "60px"
+  } else {
+    onanogram.style.opacity = "0%"
+    onanogram.style.marginTop = "120px"
+  }
+
+  if (scroll >= 2100) {
+    persona.style.marginTop = "0"
+  } else {
+    persona.style.marginTop = "100%"
+  }
+}, 200)
