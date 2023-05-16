@@ -20,6 +20,16 @@ moreButton.addEventListener('click', () => {
   });
 });
 
+const scrollup = document.getElementById("Beranda")
+scrollup.addEventListener('click', () => {
+  const scrollY = window.scrollY;
+  var scrollupvalue = - scrollY
+  window.scrollBy({
+    top: scrollupvalue,
+    left: 0,
+    behavior: 'smooth'
+  });
+});
 
 
 const sidebarmenu = document.getElementById("sidebarmenu")
@@ -185,7 +195,7 @@ setInterval(function(){
     onanogram.style.marginTop = "120px"
   }
 
-  if (scrollY >= 1100) {
+  if (scrollY >= 750) {
     videoembed.style.opacity = "100%"
     videoembed.style.marginTop = "60px"
   } else {
@@ -193,7 +203,7 @@ setInterval(function(){
     videoembed.style.marginTop = "120px"
   }
 
-  if (scrollY >= 1678) {
+  if (scrollY >= 1570) {
     visimisi.style.opacity = "100%"
     visimisi.style.marginTop = "60px"
   } else {
@@ -201,7 +211,7 @@ setInterval(function(){
     visimisi.style.marginTop = "120px"
   }
 
-  if (scrollY >= 2621) {
+  if (scrollY >= 2465) {
     slidersec.style.opacity = "100%"
     slidersec.style.marginTop = "60px"
   } else {
