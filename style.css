@@ -267,7 +267,7 @@ section {
   float: left;
   width: 100%;
   padding-top: 90px;
-  padding-left: 90px;
+  padding-left: 10vw;
   padding-right: 60px;
   padding-bottom: 90px;
   transition: all 0.5s ease;
@@ -276,7 +276,7 @@ section {
 
 .sambutan {
   height: 90%;
-  line-height: 1.2;
+  line-height: 2;
 }
 
 .onanogrambutton {
@@ -688,6 +688,10 @@ section {
   padding-left: 8px;
 }
 
+.footer-col ul{
+  color: #081538;
+}
+
 .footer-col .social-links a {
   display: inline-block;
   height: 40px;
@@ -702,7 +706,7 @@ section {
 }
 
 .footer-col .social-links a:hover {
-  color: #24262b;
+  color: #081538;
   background-color: #ffffff;
 }
 
@@ -826,7 +830,35 @@ section {
 .visimisitextcontainer {
   display: block;
   width: 100%;
-  height: 40%;
+  height: 15%;
+}
+
+.visimisibuttoncontainer{
+  width: 100%;
+  height: 25%;
+  display: flex;
+}
+
+.visimisibuttoncontainer a{
+  margin: auto;
+  margin-top: 5%;
+  text-decoration: none;
+}
+
+.visimisibutton{
+  margin: auto;
+  padding: 15px 25px;
+  border-radius: 15px;
+  color: white;
+  font-weight: 800;
+  font-family: 'Ubuntu', sans-serif;
+  background-color: darkkhaki;
+  transition: all 0.2s ease-in-out;
+}
+
+.visimisibutton:hover{
+  background-color: rgb(220, 216, 167);
+  transition: all 0.2s ease-in-out;
 }
 
 .visimisititlecontainer {
@@ -840,6 +872,8 @@ section {
   font-weight: 600;
   font-size: 200%;
   width: fit-content;
+  font-family: 'Ubuntu', sans-serif;
+  color: #16247a;
 
 }
 
@@ -1266,7 +1300,7 @@ section {
 
   .sambutan2 {
     height: 90%;
-    line-height: 1.2;
+    line-height: 2;
     font-size: 3vw;
     margin: auto;
   }
