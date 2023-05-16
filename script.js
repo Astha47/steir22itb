@@ -198,7 +198,7 @@ setInterval(function(){
     onanogram.style.marginTop = "120px"
   }
 
-  if (scroll >= 2100) {
+  if (scroll >= 2000) {
     persona.style.marginTop = "0"
   } else {
     persona.style.marginTop = "100%"
