@@ -11,8 +11,10 @@ typeText(textElement, ['print("Viva la Electrica!")', 'cout<<"Mahasiswa institut
 
 const moreButton = document.getElementById('more');
 moreButton.addEventListener('click', () => {
+  const scrollY = window.scrollY;
+  var targetscroll = 740 - scrollY
   window.scrollBy({
-    top: 740,
+    top: targetscroll,
     left: 0,
     behavior: 'smooth'
   });
@@ -164,3 +166,63 @@ setInterval(function(){
   michelepos = 0
  }
 }, 3500);
+
+const onanogram = document.getElementById("onanogram")
+const videoembed = document.getElementById("videoembed")
+const visimisi = document.getElementById("visimisi")
+const slidersec = document.getElementById("slidersec")
+const majors = document.getElementById("majors")
+const faqsec = document.getElementById("faqsec")
+setInterval(function(){
+  const scrollY = window.scrollY;
+  console.log(scrollY)
+
+  if (scrollY >= 590) {
+    onanogram.style.opacity = "100%"
+    onanogram.style.marginTop = "60px"
+  } else {
+    onanogram.style.opacity = "0%"
+    onanogram.style.marginTop = "120px"
+  }
+
+  if (scrollY >= 1100) {
+    videoembed.style.opacity = "100%"
+    videoembed.style.marginTop = "60px"
+  } else {
+    videoembed.style.opacity = "0%"
+    videoembed.style.marginTop = "120px"
+  }
+
+  if (scrollY >= 1678) {
+    visimisi.style.opacity = "100%"
+    visimisi.style.marginTop = "60px"
+  } else {
+    visimisi.style.opacity = "0%"
+    visimisi.style.marginTop = "120px"
+  }
+
+  if (scrollY >= 2621) {
+    slidersec.style.opacity = "100%"
+    slidersec.style.marginTop = "60px"
+  } else {
+    slidersec.style.opacity = "0%"
+    slidersec.style.marginTop = "120px"
+  }
+
+  if (scrollY >= 3332) {
+    majors.style.opacity = "100%"
+    majors.style.marginTop = "60px"
+  } else {
+    majors.style.opacity = "0%"
+    majors.style.marginTop = "120px"
+  }
+
+  if (scrollY >= 4100) {
+    faqsec.style.opacity = "100%"
+    faqsec.style.marginTop = "60px"
+  } else {
+    faqsec.style.opacity = "0%"
+    faqsec.style.marginTop = "120px"
+  }
+
+},500)

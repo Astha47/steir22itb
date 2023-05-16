@@ -257,6 +257,7 @@ section {
   height: 500px;
   width: 100vw;
   background-color: white;
+  transition: all 0.5s ease-in-out;
 }
 
 .textonanogram2 {
@@ -371,6 +372,7 @@ section {
   background-size: cover;
   overflow: hidden;
   display: flex;
+  transition: all 0.5s ease-in-out;
 }
 
 .videoembed iframe {
@@ -386,6 +388,7 @@ section {
   background-image: url('./img/sildesbackground.jpg');
   overflow: hidden;
   display: flex;
+  transition: all 0.5s ease-in-out;
 }
 
 .slider {
@@ -514,6 +517,7 @@ section {
   background-size: cover;
   align-items: center;
   align-self: center;
+  transition: all 0.5s ease-in-out;
 }
 
 .majorcont {
@@ -766,6 +770,7 @@ section {
   background-color: rgb(255, 255, 255);
   align-items: center;
   align-self: center;
+  transition: all 0.5s ease-in-out;
 }
 
 .visimisihero {
@@ -954,6 +959,7 @@ section {
   background-color: rgb(255, 255, 255);
   align-items: center;
   align-self: center;
+  transition: all 0.5s ease-in-out;
 }
 
 .faqhero {
