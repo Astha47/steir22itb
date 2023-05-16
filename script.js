@@ -187,7 +187,7 @@ setInterval(function(){
   const scrollY = window.scrollY;
   console.log(scrollY)
 
-  if (scrollY >= 590) {
+  if (scrollY >= 292) {
     onanogram.style.opacity = "100%"
     onanogram.style.marginTop = "60px"
   } else {
