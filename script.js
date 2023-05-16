@@ -203,7 +203,7 @@ setInterval(function(){
     videoembed.style.marginTop = "120px"
   }
 
-  if (scrollY >= 1570) {
+  if (scrollY >= 1426) {
     visimisi.style.opacity = "100%"
     visimisi.style.marginTop = "60px"
   } else {
@@ -211,7 +211,7 @@ setInterval(function(){
     visimisi.style.marginTop = "120px"
   }
 
-  if (scrollY >= 2465) {
+  if (scrollY >= 2272) {
     slidersec.style.opacity = "100%"
     slidersec.style.marginTop = "60px"
   } else {
@@ -219,7 +219,7 @@ setInterval(function(){
     slidersec.style.marginTop = "120px"
   }
 
-  if (scrollY >= 3332) {
+  if (scrollY >= 3128) {
     majors.style.opacity = "100%"
     majors.style.marginTop = "60px"
   } else {
@@ -227,7 +227,7 @@ setInterval(function(){
     majors.style.marginTop = "120px"
   }
 
-  if (scrollY >= 4100) {
+  if (scrollY >= 3981) {
     faqsec.style.opacity = "100%"
     faqsec.style.marginTop = "60px"
   } else {
