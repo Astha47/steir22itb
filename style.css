@@ -253,7 +253,7 @@ section {
 
 /*Bagan onanogram*/
 .onanogram {
-  display: flex;
+  display: block;
   margin-top: 60px;
   height: 500px;
   width: 100vw;
@@ -267,7 +267,7 @@ section {
 
 .textonanogram {
   float: left;
-  width: 100%;
+  width: 80%%;
   padding-top: 90px;
   padding-left: 10vw;
   padding-right: 60px;
@@ -310,9 +310,6 @@ section {
   transition: all 0.5s ease;
 }
 
-.imagecontainer{
-  height: 100%;
-}
 
 .ImageHero {
   display: flex;
@@ -1343,13 +1340,6 @@ section {
     transition: all 0.5s ease;
   }
 
-  .herocontainer{
-    width: 40%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-  }
-
   .outerhero {
     width: 50vw;
     height: 50vw;
@@ -1362,8 +1352,9 @@ section {
   }
 
   .ImageHero {
+    justify-content: center;
     display: flex;
-    height: 100%;
+    height: 70vw;
     width: 100%;
     margin-left: 0;
   }
